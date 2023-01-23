@@ -1,6 +1,6 @@
-TIPOS DE KERNEL
+# TIPOS DE KERNEL
 
-1. Núcleos Monolíticos     
+## 1. Núcleos Monolíticos     
 Estos sistemas tienen un núcleo grande y complejo, que
 engloba todos los servicios del sistema. Está programado de 
 forma no modular, y tiene un rendimiento mayor que un 
@@ -18,7 +18,7 @@ completo al añadir una nueva funcionalidad.
 Un error en una rutina puede propagarse a todo el núcleo. 
 
 
-2. Micro-núcleos
+## 2. Micro-núcleos
 Son núcleos de pequeño tamaño que fueron compilados sólo con 
 las necesidades más básicas del sistema operativo. El resto 
 de funcionalidades son añadidas mediante la adición de 
@@ -38,7 +38,7 @@ Los procesos tienen que esperar en una cola para obtener información
 Los Procesos no pueden tener acceso a otros procesos sin tener que esperar
 
 
-3. Núcleos Híbridos
+## 3. Núcleos Híbridos
 Núcleo híbrido es una arquitectura basada en la combinación 
 de microkernel y núcleo monolítico, estas arquitecturas son 
 utilizadas dentro de las computadoras por medio de los 
@@ -61,7 +61,7 @@ hardware, y para mejorar el soporte de Multiprocesamiento Simétrico.
 
 La Mayoría de los Sistemas Operativos modernos contienen un Núcleo Híbrido.
 
-4. Exonúcleos
+## 4. Exonúcleos
 Los exonúcleos, también conocidos como sistemas operativos 
 verticalmente estructurados, representan una aproximación 
 radicalmente nueva al diseño de sistemas operativos. La idea 
