@@ -29,6 +29,8 @@ cambia del modo de usuario al modo de kernel en el momento de
 la ejecución. Después de completar finalmente la ejecución 
 del proceso, el CPU vuelve a cambiar al modo de usuario.
 
+<image src="https://i0.wp.com/www.differencebetween.com/wp-content/uploads/2017/12/Difference-Between-User-Mode-and-Kernel-Mode-fig-1.png?resize=500%2C500&ssl=1" alt="Kernel vs User">
+
 ## Diferencia entre el modo Kernel y el modo de usuario
 | CRITERIOS |KERNEL MODE | USER MODE |
 |:-------------------:|---|---|
