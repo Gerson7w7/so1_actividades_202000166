@@ -17,8 +17,7 @@ completo al añadir una nueva funcionalidad.
 
 Un error en una rutina puede propagarse a todo el núcleo. 
 
-<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kernel-monolithic.svg/1200px-Kernel-monolithic.svg.png" alt="Descripción de la imagen">
-
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kernel-monolithic.svg/1200px-Kernel-monolithic.svg.png" alt="Núcleo monolítico">
 
 ## 2. Micro-núcleos
 Son núcleos de pequeño tamaño que fueron compilados sólo con 
@@ -39,6 +38,7 @@ los Monolíticos.
 - Los procesos tienen que esperar en una cola para obtener información
 - Los Procesos no pueden tener acceso a otros procesos sin tener que esperar
 
+<image src="https://qph.cf2.quoracdn.net/main-qimg-266d165bcbd8e399ff8cd60ec4d8e0b3" alt="Micro-núcleo">
 
 ## 3. Núcleos Híbridos
 Núcleo híbrido es una arquitectura basada en la combinación 
@@ -63,6 +63,8 @@ hardware, y para mejorar el soporte de Multiprocesamiento Simétrico.
 
 La Mayoría de los Sistemas Operativos modernos contienen un Núcleo Híbrido.
 
+<image src="https://e7.pngegg.com/pngimages/109/320/png-clipart-monolithic-kernel-hybrid-kernel-operating-systems-microkernel-linux-angle-text.png" alt="Núcleo híbrido">
+
 ## 4. Exonúcleos
 Los exonúcleos, también conocidos como sistemas operativos 
 verticalmente estructurados, representan una aproximación 
@@ -74,3 +76,5 @@ expresamente su funcionalidad a la protección y el
 multiplexado de los recursos. Se llaman así porque toda la 
 funcionalidad deja de estar residente en memoria y pasa a 
 estar fuera, en librerías dinámicas.
+
+<image src="https://w7.pngwing.com/pngs/996/157/png-transparent-exokernel-operating-systems-microkernel-system-call-computer-text-computer-material-thumbnail.png" alt="Exonúcleo">
