@@ -31,6 +31,7 @@ del proceso, el CPU vuelve a cambiar al modo de usuario.
 
 ## Diferencia entre el modo Kernel y el modo de usuario
 | CRITERIOS |KERNEL MODE | USER MODE |
+|:-------------------:|---|---|
 | Principales diferencias |En el modo kernel, el programa tiene acceso directo y sin restricciones a los recursos del sistema.|En modo de usuario, el programa de aplicación se ejecuta y se inicia.|
 |Interrupciones|En el modo Kernel, todo el sistema operativo podría disminuir si se produce una interrupción.|En el modo de usuario, un solo proceso falla si ocurre una interrupción.|
 |Modos|En el modo kernel, todos los procesos comparten un solo espacio de dirección virtual.|En el modo de usuario, todos los procesos obtienen espacio de dirección virtual separado.|
