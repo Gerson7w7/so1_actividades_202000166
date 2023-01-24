@@ -26,12 +26,12 @@ módulos externos al núcleo, lo que les proporciona
 flexibilidad y facilidad de ampliación. Son mas seguros que 
 los Monolíticos.
 
-** Pros del Micronucleo **
+**Pros del Micronucleo**
 - Portabilidad
 - Pequeña huella de la memoria
 - Seguridad
 
-** Contras del Micronúcleo **
+**Contras del Micronúcleo**
 - El hardware es más abstracto a través de controladores
 - Hardware puede reaccionar más lento porque los controladores están en modo usuario
 - Los procesos tienen que esperar en una cola para obtener información
