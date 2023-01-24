@@ -17,6 +17,8 @@ completo al añadir una nueva funcionalidad.
 
 Un error en una rutina puede propagarse a todo el núcleo. 
 
+<image src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Kernel-monolithic.svg/1200px-Kernel-monolithic.svg.png" alt="Descripción de la imagen">
+
 
 ## 2. Micro-núcleos
 Son núcleos de pequeño tamaño que fueron compilados sólo con 
