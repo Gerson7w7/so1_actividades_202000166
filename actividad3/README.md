@@ -28,4 +28,4 @@ try_files file ... uri;
 
 Así nginx delegará la resolución de las URIs a react-router, en caso de que este no pueda resolverlas. :D
 
-NOTA: La solución la agregué al Dockerfile del frontend.
+NOTA: La solución la agregué al nginx.Dockerfile del frontend.
