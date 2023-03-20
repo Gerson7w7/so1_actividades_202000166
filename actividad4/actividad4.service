@@ -1,0 +1,11 @@
+[Unit]
+Description=servicio para imprimir saludo y fecha
+
+[Service]
+User=root
+WorkingDirectory=/home/gerson/Documentos/SO1/so1_actividades_202000166
+ExecStart=/home/gerson/Documentos/SO1/so1_actividades_202000166/actividad4
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
